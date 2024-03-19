@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="top.css">
+    <title>Top</title>
+</head>
+<body>
+    <?php 
+		session_start(); 
+		$myDB = new mysqli("localhost","root", "", "laptop_db", 3307); 
+	?>
+
+    <div id="menu" style=" margin: 0;">
+        <ul>
+            <li>
+                <a href="index.php">Home</a>
+            </li>
+            <li>
+                <a href="list.php">List</a>
+            </li>           
+            <li>
+                <a href="choice_list.php">Choice List</a>
+            </li>           
+            <?php
+            if (isset($_SESSION["username"])){
+                if ($_SESSION["usertype"]==1){
+                    echo '<li>
+                        <a href="add.php">Add Laptop</a>
+                    </li>';
+                    echo '<li>
+                        <a href="delete.php">Delete</a>
+                    </li>';
+                    echo '<li>
+                        <a href="edit.php">Edit</a>
+                    </li>';
+                }
+            }
+            ?>
+        </ul>
+    </div>
+    <div class="form_user" style="background-color: rgba(67, 67, 67, 0.7); padding-top: 0.5%; text-align:right;">
+        <?php
+            if (!isset($_SESSION["username"]))
+            {?>
+            <form action="login.php" method="post">
+                <label for="username">User:</label>
+                <input type="text" name="username" value="admin">
+                <label for="password">Password:</label>
+                <input type="password" name="password" value="admin"> 
+                <input type="submit" value="Login"  class="button">&nbsp;&nbsp;&nbsp;
+            </form>
+            <?php }
+            else echo $_SESSION["personname"] . " <a href='logout.php'>Exit</a>&nbsp;&nbsp;&nbsp;";
+            ?>
+            <?php 
+                $myDB = new mysqli("localhost","root", "", "laptop_db", 3307);
+            ?>
+    </div>
+    <div id="top-header"> 
+        <h1>Database Project</h1>
+    </div>
+    
+</body>
+
+</html>

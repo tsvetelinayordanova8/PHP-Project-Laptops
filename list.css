@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#laptop{
+    color: white;
+    margin-left: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.laptop{
+  color: white;
+  margin-left: 2%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label{
+    color:white;
+}
+
+#button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  height: 25px;
+  line-height: 13px;
+  min-width: 20px;
+  padding: 5px 16px;
+  text-align: center;
+  margin-top: 0.5%;
+  margin-left: 5.4%;
+}
+
+#button:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+#button:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+.img{
+  margin-left: 36%;
+  margin-top: 2%;
+}
+.img1{
+  margin-left: 42%;
+  margin-top: 2%;
+}
+.img3{
+  margin-left: 29%;
+  margin-top: 2%;
+}
+.h1Choice{
+  text-align: center;
+  color: #3c4043;
+}
+.formName{
+  color: white;
+  margin: 0 2%;
+}
+.delete {
+  color:white;
+}
+#deleting{
+  text-align: center;
+  margin: 2% 0 4% 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22pt;
+  color:#3c4043;
+}
+.update {
+  color:white;
+}
+#updating{
+  text-align: center;
+  margin: 2% 0 4% 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22pt;
+  color:#3c4043;
+}
+.img4{
+  margin-top: 2%;
+}
+.form_update{
+  color:white;
+}
+.form{
+  margin-left: 2%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form_update form{
+  padding-bottom: 0.5%;
+}
+.update_data_message{
+  text-align: center;
+  color:#3c4043;
+  font-size: 23pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 5%;
+}
+.img_edit{
+  margin-left: 40%;
+  margin-top: 3%;
+}
+#upadting{
+  text-align: center;
+  color:#3c4043;
+  font-size: 23pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 2% 0 4% 0;
+}
+.secondHeader{
+  text-align: center;
+  color:#3c4043;
+  margin-top: 2%;
+  font-size: 20pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 2%;
+}
+.choice{
+  color:white;
+}

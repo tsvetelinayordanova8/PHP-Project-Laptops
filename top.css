@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+#top-header h1{
+    color: #545454;
+    text-align: center;
+}
+#index-h1{
+    text-align: center;
+    color: #434343;
+}
+#menu{
+    background-color: rgba(67, 67, 67, 0.7);
+    text-align: center;
+    margin: 0;
+    padding-top: 2%;
+}
+#menu ul li{
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    margin-right: 2%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.delete table{
+    color:white;
+    
+}
+label{
+    color: white;
+}
+table {
+    background: white;
+    border-radius:3px;
+    border-collapse: collapse;
+    height: 100%;
+    margin: auto;
+    max-width: 60%;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+   
+  th {
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size:23px;
+    font-weight: 100;
+    padding:24px;
+    text-align:left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align:middle;
+  }
+  
+  th:first-child {
+    border-top-left-radius:3px;
+  }
+   
+  th:last-child {
+    border-top-right-radius:3px;
+    border-right:none;
+  }
+    
+  tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color:#666B85;
+    font-size:16px;
+    font-weight:normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+  }
+   
+  tr:first-child {
+    border-top:none;
+  }
+  
+  tr:last-child {
+    border-bottom:none;
+  }
+   
+  tr:nth-child(odd) td {
+    background:#EBEBEB;
+  }
+  
+  tr:last-child td:first-child {
+    border-bottom-left-radius:3px;
+  }
+   
+  tr:last-child td:last-child {
+    border-bottom-right-radius:3px;
+  }
+   
+  td {
+    background:#FFFFFF;
+    padding:20px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+  }
+  
+  td:last-child {
+    border-right: 0px;
+  }
+  
+  th.text-left {
+    text-align: left;
+  }
+  
+  th.text-center {
+    text-align: center;
+  }
+  
+  th.text-right {
+    text-align: right;
+  }
+  
+  td.text-left {
+    text-align: left;
+  }
+  
+  td.text-center {
+    text-align: center;
+  }
+  
+  td.text-right {
+    text-align: right;
+  }
+  
+/*For list table*/
+
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 10px;
+    border: 1px solid #000;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color:rgb(71, 71, 71);
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+input{
+    
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    font-size: 1rem;
+    font-weight: 400;
+    width: 15%;
+    padding: 10px;
+    transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    background: rgb(245, 245, 245);
+    height: 10px;
+    
+}
+input:hover{
+    border-bottom-color: rgba(0,0,0,.87);
+    background: #ececec;
+}
+.button{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.5% 0 1.5% 0;
+    border: 1px solid #222222;
+    background: #fff;
+    color: #222222;
+    width: 5%;
+
+}
+select{
+    display: block;
+    width: 15%;
+    height: 25px;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+}
+.form input{
+    margin-left: 10%;
+}
+.button_back{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding:0.5% 0.5% 1%;
+    border: 1px solid #222222;
+    background: #fff;
+    color: #222222;
+    width: 5%;
+    text-decoration: none;
+    margin-top: 1%;
+}
